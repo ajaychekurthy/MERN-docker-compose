@@ -1,13 +1,13 @@
 ---
 services:
   frontend:
-    image: mern-frontend
+    image: mern/frontend
     ports:
       - 5050:5050
     network:
       - mern
   backtend:
-    image: mern-backend
+    image: mern/backend
     ports:
       - 5173:5173
     networks:
