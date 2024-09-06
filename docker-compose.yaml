@@ -1,5 +1,4 @@
----
-Version: "3"
+
 services:
   frontend:
     build: mern/frontend
